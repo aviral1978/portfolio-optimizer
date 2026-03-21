@@ -1,8 +1,3 @@
-"""
-app.py — Simplified Portfolio Optimizer (User Input Tickers)
-Run with: streamlit run app.py
-"""
-
 import warnings
 warnings.filterwarnings("ignore")
 
