@@ -1,8 +1,3 @@
-"""
-optimizer.py
-Core portfolio optimisation logic: Monte Carlo simulation, Efficient Frontier,
-and scipy-based Max-Sharpe / Min-Volatility optimisation.
-"""
 
 import numpy as np
 import pandas as pd

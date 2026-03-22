@@ -1,9 +1,3 @@
-"""
-report_exporter.py
-Build a multi-sheet Excel workbook with portfolio summary, weights,
-risk metrics, and price data.
-"""
-
 import io
 import numpy as np
 import pandas as pd

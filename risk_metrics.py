@@ -1,9 +1,3 @@
-"""
-risk_metrics.py
-Advanced risk analytics: VaR, CVaR, Sortino Ratio, Jensen's Alpha,
-Maximum Drawdown, Beta, and portfolio-level return series.
-"""
-
 import numpy as np
 import pandas as pd
 from scipy import stats

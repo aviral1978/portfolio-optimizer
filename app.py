@@ -89,8 +89,8 @@ if run_btn:
     cov = returns.cov()
     nifty_ret = compute_returns(nifty.to_frame()).iloc[:, 0]
 
-    # ❌ NO SHORT SELLING (forced False)
-    allow_short = False
+   
+    allow_short = False  #no short selling
 
     with st.spinner("Optimizing portfolio..."):
         sim_df = monte_carlo_simulation(mean_ret, cov, num_portfolios)

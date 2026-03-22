@@ -1,14 +1,10 @@
-"""
-data_fetcher.py
-Handles downloading stock data from Yahoo Finance for NSE-listed stocks.
-"""
 
 import yfinance as yf
 import pandas as pd
 import numpy as np
 
 
-# Popular NSE stocks (ticker format: SYMBOL.NS)
+# All NSE stocks (ticker format: SYMBOL.NS)
 NSE_STOCKS = {
     "Reliance Industries": "RELIANCE.NS",
     "TCS": "TCS.NS",
@@ -38,7 +34,7 @@ NSE_STOCKS = {
     "IndusInd Bank": "INDUSINDBK.NS",
     "Bajaj Auto": "BAJAJ-AUTO.NS",
     "Tata Motors": "TATAMOTORS.NS",
-    "Dr. Reddy's": "DRREDDY.NS",
+    "Dr Reddy's Laboratories": "DRREDDY.NS",
     "Cipla": "CIPLA.NS",
     "Divi's Laboratories": "DIVISLAB.NS",
     "Eicher Motors": "EICHERMOT.NS",
@@ -50,6 +46,16 @@ NSE_STOCKS = {
     "ONGC": "ONGC.NS",
     "Coal India": "COALINDIA.NS",
     "Hindalco": "HINDALCO.NS",
+    "Adani Enterprises": "ADANIENT.NS",
+    "Bharat Electronics": "BEL.NS",
+    "Bharat Petroleum": "BPCL.NS",
+    "Bharti Airtel": "BHARTIARTL.NS",
+    "ITC": "ITC.NS",
+    "LTIMindtree": "LTIM.NS",
+    "Mahindra & Mahindra": "M&M.NS",
+    "SBI Life Insurance": "SBILIFE.NS",
+    "Trent": "TRENT.NS",
+    "UPL": "UPL.NS"
 }
 
 NIFTY50_TICKER = "^NSEI"

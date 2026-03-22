@@ -1,7 +1,3 @@
-"""
-charts.py
-All Plotly and Matplotlib/Seaborn chart builders for the Streamlit app.
-"""
 
 import numpy as np
 import pandas as pd
